@@ -6,6 +6,7 @@ Senior Data Analyst assignment package for investigating suspicious authenticati
 
 - `presentation/security_login_analytics_investigation.pptx` - final PowerPoint deck
 - `presentation/security_login_analytics_investigation.pdf` - PDF export of the deck
+- `presentation/security_login_analytics_investigation_short.pptx` - short interview-ready version with the key findings and design decisions
 - `notebooks/security_login_analytics_investigation.ipynb` - notebook entry point
 - `notebooks/security_login_analytics_investigation.py` - cleaned, reproducible analysis script
 - `notebooks/original_colab_export.py` - original Colab-exported notebook script
@@ -80,7 +81,7 @@ The raw login workbook is not committed by default because this package is inten
 
 ## Presentation narrative
 
-The deck is structured as a technical design review:
+The full deck is structured as a technical design review:
 
 - Business risk and assignment understanding
 - Analytical strategy and decision log
@@ -91,3 +92,12 @@ The deck is structured as a technical design review:
 - Dashboard design and product KPI case
 - Production architecture, monitoring, limitations, and recommendations
 
+The short deck condenses the same story into a 16-slide review covering:
+
+- Executive summary and assignment scope
+- Decision log and data quality summary
+- Baseline spike and behavioral features
+- Threat kill chain mapping
+- Five anomaly findings with confidence scores
+- Product KPI dashboard perspective
+- Explainability, cost, production architecture, and conclusion
