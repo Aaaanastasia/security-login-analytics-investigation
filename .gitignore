@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Generated analysis outputs
+analysis_outputs/
+notebooks/charts/
+
+# Raw/private assignment data
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.tsv
+!data/README.md
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Codex scratch
+work/
+outputs/
